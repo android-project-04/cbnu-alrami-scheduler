@@ -1,11 +1,7 @@
-package cbnu.io.cbnualramischeduler.business.core.domain.notification
+package cbnu.io.cbnualramischeduler.business.core.domain.notification.entity
 
-import cbnu.io.cbnualramischeduler.business.core.domain.notification.value.DateTime
-import org.springframework.data.annotation.CreatedDate
-import org.springframework.data.annotation.LastModifiedDate
+import cbnu.io.cbnualramischeduler.business.core.domain.notification.entity.value.DateTime
 import org.springframework.data.jpa.domain.support.AuditingEntityListener
-import java.time.ZoneId
-import java.time.ZonedDateTime
 import javax.persistence.*
 
 @Entity
