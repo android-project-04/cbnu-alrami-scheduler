@@ -26,11 +26,11 @@ class DatabaseCleanup: InitializingBean{
 
     @Transactional
     fun execute() {
-        entityManager.flush()
         entityManager.clear()
+        entityManager.flush()
 
-        for (tableName in tableNames) {
-            entityManager.createNativeQuery("TRUNCATE TABLE $tableName").executeUpdate()
+        tableNames.forEach {
+            tableName -> entityManager.createNativeQuery("TRUNCATE TABLE $tableName").executeUpdate()
         }
     }
 
