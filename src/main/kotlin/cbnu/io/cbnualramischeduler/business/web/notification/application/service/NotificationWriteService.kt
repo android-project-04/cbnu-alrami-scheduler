@@ -1,6 +1,6 @@
 package cbnu.io.cbnualramischeduler.business.web.notification.application.service
 
-import cbnu.io.cbnualramischeduler.business.core.domain.notification.Notification
+import cbnu.io.cbnualramischeduler.business.core.domain.notification.entity.Notification
 import cbnu.io.cbnualramischeduler.business.core.domain.notification.infrastructure.NotificationJpaRepository
 import cbnu.io.cbnualramischeduler.business.web.crawling.application.CbnuNotificationCrawler
 import cbnu.io.cbnualramischeduler.business.web.notification.application.NotificationWriteCommand

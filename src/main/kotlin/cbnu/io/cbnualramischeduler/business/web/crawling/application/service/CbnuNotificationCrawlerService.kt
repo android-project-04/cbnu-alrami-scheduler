@@ -1,6 +1,6 @@
 package cbnu.io.cbnualramischeduler.business.web.crawling.application.service
 
-import cbnu.io.cbnualramischeduler.business.core.domain.notification.Notification
+import cbnu.io.cbnualramischeduler.business.core.domain.notification.entity.Notification
 import cbnu.io.cbnualramischeduler.business.web.crawling.application.CbnuNotificationCrawler
 import org.jsoup.Jsoup
 import org.springframework.beans.factory.annotation.Value

@@ -1,4 +1,4 @@
-package cbnu.io.cbnualramischeduler.business.core.domain.notification.value
+package cbnu.io.cbnualramischeduler.business.core.domain.notification.entity.value
 
 import java.time.ZoneId
 import java.time.ZonedDateTime
