@@ -4,7 +4,7 @@ import cbnu.io.cbnualramischeduler.business.core.domain.notification.entity.Noti
 import cbnu.io.cbnualramischeduler.business.core.domain.notification.infrastructure.NotificationJpaRepository
 import cbnu.io.cbnualramischeduler.business.web.crawling.application.CbnuNotificationCrawler
 import cbnu.io.cbnualramischeduler.business.web.notification.application.service.NotificationWriteService
-import cbnu.io.cbnualramischeduler.common.container.DatabaseTestBase
+import cbnu.io.cbnualramischeduler.common.container.TestContainerBase
 import io.kotest.matchers.shouldBe
 import io.mockk.MockKAnnotations
 import io.mockk.every
@@ -19,7 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired
 
 @DisplayName("공지 스케줄러 쓰기 테스트")
 @ExtendWith(MockKExtension::class)
-internal class NotificationWriteTest: DatabaseTestBase() {
+class NotificationWriteTest: TestContainerBase() {
 
     @MockK
     lateinit var notificationCrawler: CbnuNotificationCrawler
