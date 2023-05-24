@@ -1,6 +1,6 @@
 package cbnu.io.cbnualramischeduler.business.core.domain.notification.infrastructure
 
-import cbnu.io.cbnualramischeduler.business.core.domain.notification.Notification
+import cbnu.io.cbnualramischeduler.business.core.domain.notification.entity.Notification
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
